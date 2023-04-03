@@ -30,5 +30,5 @@ function calculate(expression: string): number {
 const img = document.createElement('img');
 img.style.width = '300px'
 document.body.append(img);
-const imgUrl = new URL('/src/images/2344132.png', import.meta.url);
+const imgUrl = new URL('/images/2344132.png', import.meta.url);
 img.src = imgUrl.href;
